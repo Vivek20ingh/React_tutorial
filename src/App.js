@@ -9,10 +9,16 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <Greet/>
-      <Greet/>
-      <Greet/>
-      {/* <Welcome/> */}
+      <Greet name="Vivek" dev="Web Developer">
+        <p>Hey you good Developer</p>
+      </Greet>
+      <Greet name="Rajeev" dev="Android Developer">
+        <button>Click</button>
+      </Greet>
+      <Greet name="Ankit" dev="Android Developer"/>
+      <Welcome name="Vivek" dev="Web Developer"/>
+      <Welcome name="Rajeev" dev="Android Developer"/>
+      <Welcome name="Ankit" dev="Android Developer"/>
       {/* <Hello/> */}
     </div>
   );
