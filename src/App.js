@@ -4,12 +4,17 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
+import Counter from './components/Counter';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Vivek" dev="Web Developer">
+      <Counter/>
+      {/* <Message/> */}
+      {/* <Greet name="Vivek" dev="Web Developer">
         <p>Hey you good Developer</p>
       </Greet>
       <Greet name="Rajeev" dev="Android Developer">
@@ -18,7 +23,7 @@ function App() {
       <Greet name="Ankit" dev="Android Developer"/>
       <Welcome name="Vivek" dev="Web Developer"/>
       <Welcome name="Rajeev" dev="Android Developer"/>
-      <Welcome name="Ankit" dev="Android Developer"/>
+      <Welcome name="Ankit" dev="Android Developer"/> */}
       {/* <Hello/> */}
     </div>
   );
