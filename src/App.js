@@ -12,18 +12,18 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/> */}
       {/* <Message/> */}
-      {/* <Greet name="Vivek" dev="Web Developer">
+      <Greet name="Vivek" dev="Web Developer">
         <p>Hey you good Developer</p>
       </Greet>
-      <Greet name="Rajeev" dev="Android Developer">
+      {/* <Greet name="Rajeev" dev="Android Developer">
         <button>Click</button>
-      </Greet>
+      </Greet> */}
       <Greet name="Ankit" dev="Android Developer"/>
       <Welcome name="Vivek" dev="Web Developer"/>
-      <Welcome name="Rajeev" dev="Android Developer"/>
-      <Welcome name="Ankit" dev="Android Developer"/> */}
+      {/* <Welcome name="Rajeev" dev="Android Developer"/> */}
+      {/* <Welcome name="Ankit" dev="Android Developer"/> */}
       {/* <Hello/> */}
     </div>
   );
