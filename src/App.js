@@ -6,22 +6,26 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import Classclick from './components/Classclick';
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Counter/> */}
+      {/* <FunctionClick/>
+      <Counter/> */}
+      <Classclick/>
       {/* <Message/> */}
-      <Greet name="Vivek" dev="Web Developer">
+      {/* <Greet name="Vivek" dev="Web Developer">
         <p>Hey you good Developer</p>
-      </Greet>
+      </Greet> */}
       {/* <Greet name="Rajeev" dev="Android Developer">
         <button>Click</button>
       </Greet> */}
-      <Greet name="Ankit" dev="Android Developer"/>
-      <Welcome name="Vivek" dev="Web Developer"/>
+      {/* <Greet name="Ankit" dev="Android Developer"/>
+      <Welcome name="Vivek" dev="Web Developer"/> */}
       {/* <Welcome name="Rajeev" dev="Android Developer"/> */}
       {/* <Welcome name="Ankit" dev="Android Developer"/> */}
       {/* <Hello/> */}
