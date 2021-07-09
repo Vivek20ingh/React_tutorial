@@ -14,8 +14,8 @@ import Classclick from './components/Classclick';
 function App() {
   return (
     <div className="App">
-      {/* <FunctionClick/>
-      <Counter/> */}
+      <FunctionClick/>
+      <Counter/>
       <Classclick/>
       {/* <Message/> */}
       {/* <Greet name="Vivek" dev="Web Developer">
