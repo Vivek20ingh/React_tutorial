@@ -27,10 +27,10 @@ class Counter extends Component {
     incrementfive()
     {
         this.increment()
-        // this.increment()
-        // this.increment()
-        // this.increment()
-        // this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
+        this.increment()
     }
     render()
     {
