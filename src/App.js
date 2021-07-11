@@ -12,13 +12,21 @@ import EventBind from './components/Eventbind';
 import Parent from './components/parent';
 import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Namelist';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyle.css'
+import style from './appStyle.module.css'
 
 
 
 function App() {
   return (
     <div className="App">
-      <Namelist/>
+      <h1 className='error'>Error</h1>
+      <h1 className={style.success}>Success</h1>
+      {/* <Stylesheet primary={true}/> */}
+      <Inline/>
+      {/* <Namelist/> */}
       {/* <UserGreeting/> */}
       {/* <EventBind/> */}
       {/* <Parent/> */}
