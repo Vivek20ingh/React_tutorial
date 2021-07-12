@@ -14,20 +14,23 @@ import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Namelist';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
-import './appStyle.css'
+import './appStyle.css';
 import style from './appStyle.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import { Fragment } from 'react';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import Purecom from './components/Purecom';
+import ParentComp from './components/ParentComp';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Table/>
+      <ParentComp/>
+      {/* <Table/> */}
       {/* <FragmentDemo/> */}
       {/* <LifecycleA/> */}
       {/* <Form/> */}
