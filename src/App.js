@@ -23,13 +23,15 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import Purecom from './components/Purecom';
 import ParentComp from './components/ParentComp';
+import RefsDemo from './component1/RefsDemo';
 
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComp/>
+      <RefsDemo/>
+      {/* <ParentComp/> */}
       {/* <Table/> */}
       {/* <FragmentDemo/> */}
       {/* <LifecycleA/> */}
