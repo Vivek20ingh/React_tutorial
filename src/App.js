@@ -18,13 +18,18 @@ import './appStyle.css'
 import style from './appStyle.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import { Fragment } from 'react';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <LifecycleA/> */}
       {/* <Form/> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={style.success}>Success</h1> */}
