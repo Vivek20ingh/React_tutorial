@@ -27,13 +27,22 @@ import RefsDemo from './component1/RefsDemo';
 import Focusinput from './component1/Focusinput';
 import FRParentInput from './component1/FRParentInput';
 import PortalDemo from './component1/PortalDemo';
+import Hero from './component1/Hero';
+import { render } from 'react-dom';
+import Errorboundr from './component1/Errorboundr';
 
 
 
 function App() {
+ 
   return (
     <div className="App">
-      <PortalDemo/>
+      < Errorboundr><Hero heroName="batman"></Hero></Errorboundr>
+      < Errorboundr>  <Hero heroName="Superman"></Hero></Errorboundr>
+      < Errorboundr> <Hero heroName="joker"></Hero></Errorboundr>
+     
+     
+      {/* <PortalDemo/> */}
       {/* <FRParentInput/> */}
       {/* <Focusinput/> */}
       {/* <RefsDemo/> */}
@@ -66,7 +75,7 @@ function App() {
       {/* <Welcome name="Ankit" dev="Android Developer"/> */}
       {/* <Hello/> */}
     </div>
-  );
+  )
 }
 
 export default App;
