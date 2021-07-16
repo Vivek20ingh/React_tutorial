@@ -30,6 +30,8 @@ import PortalDemo from './component1/PortalDemo';
 import Hero from './component1/Hero';
 import { render } from 'react-dom';
 import Errorboundr from './component1/Errorboundr';
+import ClickCounter from './component1/ClickCounter';
+import HoverCounter from './component1/HoverCounter';
 
 
 
@@ -37,9 +39,12 @@ function App() {
  
   return (
     <div className="App">
-      < Errorboundr><Hero heroName="batman"></Hero></Errorboundr>
+      <ClickCounter/>
+      <HoverCounter/>
+
+      {/* < Errorboundr><Hero heroName="batman"></Hero></Errorboundr>
       < Errorboundr>  <Hero heroName="Superman"></Hero></Errorboundr>
-      < Errorboundr> <Hero heroName="joker"></Hero></Errorboundr>
+      < Errorboundr> <Hero heroName="joker"></Hero></Errorboundr> */}
      
      
       {/* <PortalDemo/> */}
