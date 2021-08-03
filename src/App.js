@@ -5,7 +5,7 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import Classclick from './components/Classclick';
 import EventBind from './components/Eventbind';
@@ -34,6 +34,8 @@ import ClickCounter from './component1/ClickCounter';
 import HoverCounter from './component1/HoverCounter';
 import ClickCounterTwo from './component1/ClickCounterTwo';
 import HoverCount2 from './component1/HoverCount2';
+import User from './component1/User';
+import Counter from './component1/Counter';
 
 
 
@@ -41,8 +43,19 @@ function App() {
  
   return (
     <div className="App">
-      <ClickCounterTwo/>
+
+      <Counter 
+      render={(count,incrementcount) => 
+      <ClickCounterTwo count={count} incrementcount={incrementcount}/> 
+      }/>
+      <Counter 
+      render={(count,incrementcount) => 
+      < HoverCount2 count={count} incrementcount={incrementcount}/> 
+      }/>
+
+      {/* <ClickCounterTwo/>
       <HoverCount2/>
+      <User render ={(isLoggedIn)=> isLoggedIn ? 'Vivek' : 'Aditya'}/> */}
       {/* <ClickCounter/>
       <HoverCounter/> */}
 
