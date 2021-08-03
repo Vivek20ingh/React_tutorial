@@ -32,6 +32,8 @@ import { render } from 'react-dom';
 import Errorboundr from './component1/Errorboundr';
 import ClickCounter from './component1/ClickCounter';
 import HoverCounter from './component1/HoverCounter';
+import ClickCounterTwo from './component1/ClickCounterTwo';
+import HoverCount2 from './component1/HoverCount2';
 
 
 
@@ -39,8 +41,10 @@ function App() {
  
   return (
     <div className="App">
-      <ClickCounter/>
-      <HoverCounter/>
+      <ClickCounterTwo/>
+      <HoverCount2/>
+      {/* <ClickCounter/>
+      <HoverCounter/> */}
 
       {/* < Errorboundr><Hero heroName="batman"></Hero></Errorboundr>
       < Errorboundr>  <Hero heroName="Superman"></Hero></Errorboundr>
