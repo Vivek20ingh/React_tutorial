@@ -36,6 +36,8 @@ import ClickCounterTwo from './component1/ClickCounterTwo';
 import HoverCount2 from './component1/HoverCount2';
 import User from './component1/User';
 import Counter from './component1/Counter';
+import ComponentC from './component2/ComponentC';
+import  UserProvider  from './component2/userContext';
 
 
 
@@ -44,14 +46,19 @@ function App() {
   return (
     <div className="App">
 
-      <Counter 
+     <UserProvider value="Viswas">
+       <ComponentC />
+     </UserProvider>
+    
+
+      {/* <Counter 
       render={(count,incrementcount) => 
       <ClickCounterTwo count={count} incrementcount={incrementcount}/> 
       }/>
       <Counter 
       render={(count,incrementcount) => 
       < HoverCount2 count={count} incrementcount={incrementcount}/> 
-      }/>
+      }/> */}
 
       {/* <ClickCounterTwo/>
       <HoverCount2/>
