@@ -46,9 +46,9 @@ function App() {
   return (
     <div className="App">
 
-     <UserProvider value="Viswas">
+     {/* <UserProvider value="Viswas"> */}
        <ComponentC />
-     </UserProvider>
+     {/* </UserProvider> */}
     
 
       {/* <Counter 
